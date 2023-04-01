@@ -23,7 +23,7 @@ with st.sidebar:
     c1, c2 = st.columns(2)
     c1.image('./images/logo_fiap.png', width = 100)
     c2.write('')
-    c2.subheader('Auto ML - Fiap [v2]')
+    c2.subheader('Auto ML - Fiap [v3]')
 
     # database = st.selectbox('Fonte dos dados de entrada (X):', ('CSV', 'Online'))
     database = st.radio('Fonte dos dados de entrada (X):', ('CSV', 'Online'))
